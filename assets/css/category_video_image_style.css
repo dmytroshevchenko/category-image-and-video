@@ -1,0 +1,25 @@
+.description{
+	width:400px;
+}
+
+.category_video,
+.category_image{
+	text-align: center;
+	padding:5px 0;
+}
+
+
+.category_video iframe,
+.category_video video,
+.category_image img{
+	max-width:100%;
+}
+
+
+.category_image img{
+	height:auto;
+}
+
+.category_video .wp-video{
+	margin:0 auto;
+}

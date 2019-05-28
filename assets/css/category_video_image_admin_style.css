@@ -1,0 +1,41 @@
+.category_image_block{
+	width:150px;
+	height:150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../images/default_image.png')
+}
+
+.video_input_block{
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.video_input_block input{
+	margin-right: 20px;
+	padding: 5px;
+}
+
+button.remove_category_video{
+	margin-left:5px !important;
+}
+
+.category_video_block{
+	padding:5px 0;
+}
+
+.category_video_block .preloader{
+	display:none;
+}
+
+.category_video_block .preloader.active{
+	display:block;
+}
